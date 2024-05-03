@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Clinic</title>
+    <!-- Render All Elements Normally -->
+    <link rel="stylesheet" href="css/normalize.css" />
+    <!-- Font Awesome Library -->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <!-- Main Temlate css file -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner:wght@500&family=Open+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  </head>
+  <body>
+    <!-- Start Header -->
+    <header>
+      <div class="container" id="top">
+        <a href="#" class="logo">
+          <img src="images/logo.svg" alt="Logo" />
+        </a>
+        <nav>
+          <i class="fas fa-bars menu"></i>
+          <ul>
+            <li><a href="#" class="active">Home</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Doctors</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+          <div class="form">
+            <i class="fas fa-search"></i>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- End Header -->
+    <!-- Start Landing -->
+    <section class="landing">
+      <div class="overlay">
+        <div class="text">
+          <div class="content">
+            <h2>
+              Welcome To Doclab<br />
+              We get will soon
+            </h2>
+            <p>
+              The new Doclab Hydro Renewal Ampoule is the latest K-Beauty secret
+              of skin renewal and revitalization invention.
+            </p>
+          </div>
+        </div>
+        <img class="img-doctor" src="images/hero-banner.png" alt="" />
+      </div>
+      <i class="fas fa-angle-left icon1 fa-2x"></i>
+      <i class="fas fa-angle-right icon2 fa-2x"></i>
+      <ul class="bullets">
+        <li></li>
+        <li class="active"></li>
+        <li></li>
+      </ul>
+    </section>
+    <!-- End Landing -->
+    <!-- Start Services -->
+    <section class="services">
+      <div class="container">
+        <div class="main-content">
+          <h2>Services</h2>
+          <p>
+            The new Doclab Hydro Renewal Ampoule is the latest K-Beauty secret
+            of skin renewal and revitalization.
+          </p>
+        </div>
+        <div class="services-content">
+          <div class="div-content">
+            <img src="images/icon-1.png" alt="" />
+            <div class="text">
+              <h2>Psychaitry</h2>
+              <p>
+                Psychiatry is a branch of medicine that focuses on the
+                diagnosis, treatment, and prevention of mental, emotional, and
+                behavioral disorders.
+              </p>
+            </div>
+          </div>
+          <div class="div-content">
+            <img src="images/icon-2.png" alt="" />
+            <div class="text">
+              <h2>Gynecology</h2>
+              <p>
+                Gynecology is a branch of medicine that deals with the health of
+                the female reproductive system, including the uterus, ovaries,
+                and vagina.
+              </p>
+            </div>
+          </div>
+          <div class="div-content">
+            <img src="images/icon-3.png" alt="" />
+            <div class="text">
+              <h2>Pulmonology</h2>
+              <p>
+                Pulmonology is a medical specialty focused on the diagnosis,
+                treatment, and management of diseases and conditions related to
+                the respiratory system.
+              </p>
+            </div>
+          </div>
+          <div class="div-content">
+            <img src="images/icon-4.png" alt="" />
+            <div class="text">
+              <h2>Orthopedics</h2>
+              <p>
+                Orthopedics, also known as orthopedic surgery, is a medical
+                specialty focused on the diagnosis, treatment, and prevention of
+                disorders.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Services -->
+    <!-- Start Design -->
+    <section class="design">
+      <div class="overlay">
+        <div class="image">
+          <!-- <img src="images/mobile.png" alt="" /> -->
+        </div>
+        <div class="text">
+          <div class="content">
+            <h2>Doctors Are Doing As Team . . .</h2>
+            <div class="div-icon">
+              <div class="div-content">
+                <img src="images/icon-1.png" alt="" />
+                <span>Dr: Ahmed Atef</span>
+              </div>
+              <div class="div-content">
+                <img src="images/icon-2.png" alt="" />
+                <span>Dr: Ahmed Ayman</span>
+              </div>
+              <div class="div-content">
+                <img src="images/icon-3.png" alt="" />
+                <span>Dr: Ahmed Mostafa</span>
+              </div>
+              <div class="div-content">
+                <img src="images/icon-4.png" alt="" />
+                <span>Dr: Ahmed Hamdy</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Design -->
+<!-- Start New Section -->
+
+<section class="py-5">
+  <div class="bg-holder bg-size" style="background-image:url(assets/img/gallery/doctors-bg.png);background-position:top center;background-size:contain;">
+  </div>
+  <!--/.bg-holder-->
+
+  <div class="container">
+    <div class="row flex-center">
+      <div class="col-xl-10 px-0">
+        <div class="carousel slide" id="carouselExampleDark" data-bs-ride="carousel"><a class="carousel-control-prev carousel-icon z-index-2" href="#carouselExampleDark" role="button" data-bs-slide="prev"><span class="carousel-control-prev-icon" aria-hidden="true"></span><span class="visually-hidden">Previous</span></a><a class="carousel-control-next carousel-icon z-index-2" href="#carouselExampleDark" role="button" data-bs-slide="next"><span class="carousel-control-next-icon" aria-hidden="true"></span><span class="visually-hidden">Next</span></a>
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="10000">
+              <div class="row h-100 m-lg-7 mx-3 mt-6 mx-md-4 my-md-7">
+                <div class="col-md-4 mb-8 mb-md-0">
+                  <div class="card card-span h-100 shadow">
+                    <div class="card-body d-flex flex-column flex-center py-5"><img src="images/anita.png" width="128" alt="..." />
+                      <h5 class="mt-3">Anita Deshai</h5>
+                      <p class="mb-0 fs-xxl-1">Pediatrics, Gochi Medicine</p>
+                      <p class="text-600 mb-0">Florida, United States</p>
+                      <p class="text-600 mb-4">10 years experience</p>
+                      <div class="text-center">
+                        <button class="btn btn-outline-secondary rounded-pill" type="submit">View Profile</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4 mb-8 mb-md-0">
+                  <div class="card card-span h-100 shadow">
+                    <div class="card-body d-flex flex-column flex-center py-5"><img src="images/jane.png" width="128" alt="..." />
+                      <h5 class="mt-3">Jane Flakis</h5>
+                      <p class="mb-0 fs-xxl-1">Gynaecology, Abenka Care</p>
+                      <p class="text-600 mb-0">Melbourne, Australia</p>
+                      <p class="text-600 mb-4">12 years experience</p>
+                      <div class="text-center">
+                        <button class="btn btn-outline-secondary rounded-pill" type="submit">View Profile</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4 mb-8 mb-md-0">
+                  <div class="card card-span h-100 shadow">
+                    <div class="card-body d-flex flex-column flex-center py-5"><img src=images/leo-mario.png" width="128" alt="..." />
+                      <h5 class="mt-3">Leo Mario</h5>
+                      <p class="mb-0 fs-xxl-1">Physiotherapy, FitCare</p>
+                      <p class="text-600 mb-0">London, England</p>
+                      <p class="text-600 mb-4">25 years experience</p>
+                      <div class="text-center">
+                        <button class="btn btn-secondary hover-top rounded-pill border-0" type="submit">View Profile</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+              <div class="row h-100 m-lg-7 mx-3 mt-6 mx-md-4 my-md-7">
+                <div class="col-md-4 mb-8 mb-md-0">
+                  <div class="card card-span h-100 shadow">
+                    <div class="card-body d-flex flex-column flex-center py-5"><img src="assets/img/gallery/anita.png" width="128" alt="..." />
+                      <h5 class="mt-3">Anita Deshai</h5>
+                      <p class="mb-0 fs-xxl-1">Pediatrics, Gochi Medicine</p>
+                      <p class="text-600 mb-0">Florida, United States</p>
+                      <p class="text-600 mb-4">10 years experience</p>
+                      <div class="text-center">
+                        <button class="btn btn-outline-secondary rounded-pill" type="submit">View Profile</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4 mb-8 mb-md-0">
+                  <div class="card card-span h-100 shadow">
+                    <div class="card-body d-flex flex-column flex-center py-5"><img src="assets/img/gallery/jane.png" width="128" alt="..." />
+                      <h5 class="mt-3">Jane Flakis</h5>
+                      <p class="mb-0 fs-xxl-1">Gynaecology, Abenka Care</p>
+                      <p class="text-600 mb-0">Melbourne, Australia</p>
+                      <p class="text-600 mb-4">12 years experience</p>
+                      <div class="text-center">
+                        <button class="btn btn-outline-secondary rounded-pill" type="submit">View Profile</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4 mb-8 mb-md-0">
+                  <div class="card card-span h-100 shadow">
+                    <div class="card-body d-flex flex-column flex-center py-5"><img src="assets/img/gallery/leo-mario.png" width="128" alt="..." />
+                      <h5 class="mt-3">Leo Mario</h5>
+                      <p class="mb-0 fs-xxl-1">Physiotherapy, FitCare</p>
+                      <p class="text-600 mb-0">London, England</p>
+                      <p class="text-600 mb-4">25 years experience</p>
+                      <div class="text-center">
+                        <button class="btn btn-secondary hover-top rounded-pill border-0" type="submit">View Profile</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row h-100 m-lg-7 mx-3 mt-6 mx-md-4 my-md-7">
+                <div class="col-md-4 mb-8 mb-md-0">
+                  <div class="card card-span h-100 shadow">
+                    <div class="card-body d-flex flex-column flex-center py-5"><img src="assets/img/gallery/anita.png" width="128" alt="..." />
+                      <h5 class="mt-3">Anita Deshai</h5>
+                      <p class="mb-0 fs-xxl-1">Pediatrics, Gochi Medicine</p>
+                      <p class="text-600 mb-0">Florida, United States</p>
+                      <p class="text-600 mb-4">10 years experience</p>
+                      <div class="text-center">
+                        <button class="btn btn-outline-secondary rounded-pill" type="submit">View Profile</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4 mb-8 mb-md-0">
+                  <div class="card card-span h-100 shadow">
+                    <div class="card-body d-flex flex-column flex-center py-5"><img src="assets/img/gallery/jane.png" width="128" alt="..." />
+                      <h5 class="mt-3">Jane Flakis</h5>
+                      <p class="mb-0 fs-xxl-1">Gynaecology, Abenka Care</p>
+                      <p class="text-600 mb-0">Melbourne, Australia</p>
+                      <p class="text-600 mb-4">12 years experience</p>
+                      <div class="text-center">
+                        <button class="btn btn-outline-secondary rounded-pill" type="submit">View Profile</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4 mb-8 mb-md-0">
+                  <div class="card card-span h-100 shadow">
+                    <div class="card-body d-flex flex-column flex-center py-5"><img src="assets/img/gallery/leo-mario.png" width="128" alt="..." />
+                      <h5 class="mt-3">Leo Mario</h5>
+                      <p class="mb-0 fs-xxl-1">Physiotherapy, FitCare</p>
+                      <p class="text-600 mb-0">London, England</p>
+                      <p class="text-600 mb-4">25 years experience</p>
+                      <div class="text-center">
+                        <button class="btn btn-secondary hover-top rounded-pill border-0" type="submit">View Profile</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- End New Section -->
+    <!-- Start Princing -->
+    <div class="princing">
+      <div class="container">
+        <div class="main-content">
+          <h2>Blog</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam,
+            laborum ipsum adipisci perspiciatis dolorum.
+          </p>
+        </div>
+        <div class="content">
+          <div class="basic">
+            <div class="head">
+              <h3>Psychaitry</h3>
+              <span>10</span>
+            </div>
+            <ul>
+              <li>Feature No 1</li>
+              <li>Extra Feature</li>
+              <li>Extra Feature No 2</li>
+              <li>Feature</li>
+            </ul>
+            <div class="foot">
+              <a href="#">Book Now</a>
+            </div>
+          </div>
+          <div class="basic">
+            <div class="head">
+              <h3>Gynecology</h3>
+              <span>20</span>
+            </div>
+            <ul>
+              <li>Feature No 1</li>
+              <li>Extra Feature</li>
+              <li>Extra Feature No 2</li>
+              <li>Feature</li>
+            </ul>
+            <div class="foot">
+              <a href="#">Book Now</a>
+            </div>
+          </div>
+
+          <div class="basic">
+            <div class="head">
+              <h3>Pulmonology</h3>
+              <span>30</span>
+            </div>
+            <ul>
+              <li>Feature No 1</li>
+              <li>Extra Feature</li>
+              <li>Extra Feature No 2</li>
+              <li>Feature</li>
+            </ul>
+            <div class="foot">
+              <a href="#">Book Now</a>
+            </div>
+          </div>
+
+          <div class="basic">
+            <div class="head">
+              <h3>Orthopedics</h3>
+              <span>40</span>
+            </div>
+            <ul>
+              <li>Feature No 1</li>
+              <li>Extra Feature</li>
+              <li>Extra Feature No 2</li>
+              <li>Feature</li>
+            </ul>
+            <div class="foot">
+              <a href="#">Book Now</a>
+            </div>
+          </div>
+        </div>
+        <p class="parag-content">Contact us if you have special request</p>
+        <a href="#" class="lnk">Contact Us</a>
+      </div>
+    </div>
+    <!-- End Princing -->
+
+    <!-- Start Subscribe -->
+    <div class="subscribe">
+      <div class="container">
+        <form action="">
+          <i class="far fa-envelope"></i>
+          <input type="email" name="mail" placeholder="Your Email" />
+          <input type="submit" value="Subscribe" />
+        </form>
+        <p>
+          Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
+          Mauris blan dit aliquet elit, eget tincidunt.
+        </p>
+      </div>
+    </div>
+    <!-- End Subscribe -->
+    <!-- Start CONTACT US -->
+
+    <div class="contact">
+      <div class="container">
+        <div class="main-content">
+          <h2>contact us</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam,
+            laborum ipsum adipisci perspiciatis dolorum.
+          </p>
+        </div>
+        <div class="content">
+          <form action="">
+            <input
+              class="inp"
+              type="text"
+              name="name"
+              placeholder="Your Name"
+            />
+            <input
+              class="inp"
+              type="email"
+              name="mail"
+              placeholder="Your Email"
+            />
+            <textarea
+              class="inp"
+              name="message"
+              placeholder="Your Message"
+            ></textarea>
+            <input type="submit" value="Send Message" />
+          </form>
+          <div class="text">
+            <h4>GET IN TOUCH</h4>
+            <span class="phone">+00 123.456.789</span>
+            <span class="phone">+00 123.456.789</span>
+
+            <h4>WHERE WE ARE</h4>
+            <ul>
+              <li>Awesome Address 17</li>
+              <li>New York, NYC</li>
+              <li>123-4567-890</li>
+              <li>USA</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End CONTACT US -->
+
+    <!-- Start Footer -->
+    <div class="footer">
+      <div class="container">
+        <img src="images/logo.svg" alt="Logo" />
+        <div class="text">
+          <h2>We Are Social</h2>
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"> <i class="fas fa-home"></i></a>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+        </div>
+        <p>&copy; 2024 <span>Clinic</span> All Right Reserved</p>
+      </div>
+    </div>
+    <!-- End Footer -->
+    <a href="#top" class="up"><i class="fas fa-arrow-up"></i></a>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>

@@ -1,0 +1,202 @@
+ /* Start Variable */
+:root {
+    --main-color: #19c8fa;
+    --transparent-color: rgb(15 116 143 / 70%); 
+    --section-padding: 100px;
+    }
+    /* End Variable */
+    
+    /* Start Global Rules   */
+    * {
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+       padding: 0;
+       margin: 0;
+    }
+    html {
+        scroll-behavior: smooth;
+    }
+    body{
+        font-family: 'Open Sans', sans-serif;
+    }
+     ul {
+        list-style: none;
+     }
+    
+     .container {
+       margin-left: auto;
+       margin-right: auto;
+       padding-left: 15px;
+       padding-right: 15px;
+     }
+    
+    /* Small */
+    
+    @media(min-width: 768px) {
+        .container {
+           width: 750px;
+        }
+    }
+    
+    /* Medium */
+    
+    @media(min-width: 992px) {
+        .container {
+            width: 970px;
+        }
+    }
+    
+    /* Large  */
+    
+    @media(min-width: 1200px) {
+        .container {
+            width: 1170px;
+        }
+    }
+    /* End Global Rules */
+    /* Start Component */
+     
+    .main-content {
+    text-align: center;
+    }
+    
+    .main-content h2 {
+        position: relative;
+    text-transform: uppercase;
+    font-weight: normal;
+    letter-spacing: 1.5px;
+    font-size: 35px;
+    margin-bottom: 80px;
+    }
+    .main-content h2::before {
+        position: absolute;
+        content: '';
+        top: 70px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 150px;
+        height: 2px;
+        background-color: black;
+    
+    }
+    .main-content h2::after {
+    position: absolute;
+    content: '';
+    top: 60px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 2px solid black;
+    background-color: #fff;
+    
+    }
+    .main-content p {
+        width: 550px;
+        margin: 0 auto 100px;
+        line-height: 2;
+        max-width: 100%;
+        color: gray;
+    }
+    /* End Component */
+    
+    /* Start Header */
+    header {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    z-index: 3;
+    }
+    header .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+        min-height: 97px;
+    }
+    header .container::after {
+        content: "";
+        position: absolute;
+        background-color: #a2a2a2;
+        height: 1px;
+        width: calc(100% - 30px);
+        bottom: 0;
+        left: 15px;
+    }
+    header .logo img {
+        height: 50px;
+    }
+    header nav {
+        flex: 1;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    header nav .menu {
+        color: #fff;
+        font-size: 20px;
+    }
+    @media(min-width: 768px) {
+        header nav .menu {
+            display: none;
+        }
+    }
+    
+    header nav ul {
+    display: flex;
+    }
+    @media(max-width: 767px) {
+        header nav ul {
+            display: none;
+        }
+        header nav .menu:hover + ul {
+            display: flex;
+            flex-direction: column;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            width: 100%;
+            background-color: rgba(0, 0, 0, 50%);
+        }
+        header nav .menu:hover + ul li a {
+            padding: 15px;
+        }
+    }
+    header nav ul li a {
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    padding: 40px 10px;
+    font-size: 15px;
+    transition: .5s;
+    position: relative;
+    z-index: 2;
+    }
+    header nav ul li a.active,
+    header nav ul li a:hover {
+    color:var(--main-color) ;
+    border-bottom: 2px solid var(--main-color);
+    }
+    header nav .form {
+        width: 40px;
+        height: 30px;
+        position: relative;
+        margin-left: 30px;
+        border-left: 1px solid #fff;
+    }
+    header nav .form  i {
+        color: #fff;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        font-size: 20px;
+        right: 0;
+    }
+    /* End Header */
+
+    .section1 {
+        background-color: rgb(0, 87, 97);
+        background-image: url(../);
+    }
